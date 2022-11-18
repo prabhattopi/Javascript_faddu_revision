@@ -1,0 +1,229 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+:root{
+    --tenny-tawny:#d65108;
+     --tenny-tawny-dark:#b54507;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navbar{
+    background-color:var(--tenny-tawny);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: auto;
+    text-decoration: none;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+#navbar a{
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(240, 230, 230);
+    padding: 1.2rem ;
+ 
+    
+}
+#options{
+
+    padding: 1.2rem ;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+#options a{
+    text-decoration: none;
+    margin: 7px;
+    
+
+}
+#container{
+  
+
+    margin-top: 1rem;
+    
+}
+#container>p{
+    text-align: center;
+    margin: 7px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.container{
+    width: 50%;
+     height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -2rem;
+    /* background-color: rgb(225, 139, 108);  */
+   
+
+
+}
+.container .user{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+ 
+  
+   
+   
+}
+.container .user input , .sbaka{
+   background-color: white;
+    font-size: 14px;
+    color:var(--tenny-tawny);
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 50px;
+  padding: 0.4rem 0.5rem;
+  margin: 0.7rem auto;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: 600;
+  border: 1px solid var(--tenny-tawny);
+}
+.sbaka{
+    background-color: rgb(245, 241, 241);
+    height: 70px;
+    font-size: 16px;
+    resize: none;
+    
+}
+.container .user input::placeholder{
+    color: var(--tenny-tawny);
+    font-weight: 600;
+}
+.container .user .sbaka::placeholder{
+    color: var(--tenny-tawny);
+    font-weight: 600;
+}
+button{
+    /*border: 1px solid var(--tenny-tawny);
+    */border: none;
+    border-radius: 10px;
+    color: rgb(245, 232, 232);
+    background-color: var(--tenny-tawny);
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 0.9rem 0.3rem;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+
+}
+
+button:hover{
+    background-color: rgb(239, 54, 21);
+}
+
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+
+}
+
+.table table{
+   
+    width: 500px;
+    justify-content: space-between;
+    
+    border: 1px solid black;
+}
+.table table th{
+    border: 2px solid black;
+}
+.table table td{
+    font-size: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.allo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.allo button{
+    font-weight: 800;
+}
