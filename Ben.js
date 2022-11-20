@@ -5,7 +5,8 @@ function newFunction(){
     // return 5e1;//50 kaise (5 * aur kitna zeor laga hai matlab 10 ki power)
     // return 1e3;
     // return 1e-3;//(1*10**-3)
-     return 0e+5;//bas e matlab 10 bas itna yadd rakho
+    //  return 0e+5;//bas e matlab 10 bas itna yadd rakho
+    return 5e5000 // strange 
 }
 
 console.log(newFunction())
