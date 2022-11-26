@@ -1,0 +1,10 @@
+console.log(5>>1)
+function fa(a){
+    if(a>1){
+        fa(Math.floor(a/2))
+        fa(Math.floor(a/2))
+    }
+ 
+   
+}
+fa(7)
